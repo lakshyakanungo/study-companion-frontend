@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "AI study companion",
+  "version": "1.0.0",
+  "description": "A simple AI powered study companion",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/image.png",
+      "32": "icons/image.png",
+      "48": "icons/image.png",
+      "128": "icons/image.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ]
+}
